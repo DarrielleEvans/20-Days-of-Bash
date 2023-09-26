@@ -22,15 +22,16 @@ do
         read -p "File Exists. Enter continue if you want to search again or exit if you are done. " nextAction
         if [ $nextAction == "continue" ]; then
             continue
-        else
+        elif [ $nextAction == "exit" ]; then
             break
         fi
     else 
         read -p "File Does Not Exist. Enter continue if you want to search again or exit if you are done. " nextAction
         if [ $nextAction == "continue" ]; then
             continue
-        else
+        elif [ $nextAction == "exit" ]; then
             break
         fi
     fi
 done
+
