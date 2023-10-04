@@ -1,4 +1,6 @@
 #!/bin/bash
+# Created by Darrielle Evans
+# Purpose: Add new users to a group
 
 
 ### ask the user if they want to create an account
